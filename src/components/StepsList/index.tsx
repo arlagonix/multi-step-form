@@ -1,0 +1,50 @@
+import classNames from "classnames";
+import Tab from "../Tab";
+export type StepType = 1 | 2 | 3 | 4;
+import { motion, type Variants } from "framer-motion";
+
+const container: Variants = {
+  hidden: {},
+  shown: {
+    transition: {
+      delayChildren: 0.2,
+      staggerChildren: 0.25,
+    },
+  },
+};
+
+type StepsListProps = {
+  /** Number of active Tab */
+  activeStep: StepType;
+  /** If `true` is displayed for mobile devices */
+  small?: boolean;
+};
+
+function StepsList({ activeStep, small = false }: StepsListProps) {
+  return (
+    <nav
+      className={classNames(
+        " min-w-[274px] px-6 py-8",
+        { "bg-[url(./assets/bg-sidebar-desktop.svg)] bg-cover sm:block hidden": !small },
+        {
+          "bg-[url(./assets/bg-sidebar-mobile.svg)] bg-cover sm:hidden block absolute inset-x-0 top-0 h-[172px]":
+            small,
+        }
+      )}
+    >
+      <motion.ul
+        className="flex gap-4 justify-center sm:flex-col"
+        variants={container}
+        initial="hidden"
+        animate="shown"
+      >
+        <Tab sequenceNumber={1} isActive={activeStep === 1} title="Your Info" />
+        <Tab sequenceNumber={2} isActive={activeStep === 2} title="Select Plan" />
+        <Tab sequenceNumber={3} isActive={activeStep === 3} title="Add-ons" />
+        <Tab sequenceNumber={4} isActive={activeStep === 4} title="Summary" />
+      </motion.ul>
+    </nav>
+  );
+}
+
+export default StepsList;
