@@ -18,13 +18,19 @@ export type PersonalInfoType = {
 };
 
 type PersonalInfoProps = {
+  /** Saved personal information */
+  personalInfoProp: PersonalInfoType;
   /** Allows to update personal info state */
   setPersonalInfoProp: React.Dispatch<React.SetStateAction<PersonalInfoType>>;
   /** Allows to update step state */
   setCurrentStepProp: React.Dispatch<React.SetStateAction<StepType>>;
 };
 
-function PersonalInfo({ setPersonalInfoProp, setCurrentStepProp }: PersonalInfoProps) {
+function PersonalInfo({
+  personalInfoProp,
+  setPersonalInfoProp,
+  setCurrentStepProp,
+}: PersonalInfoProps) {
   const submitHandler = (values: PersonalInfoType) => {
     setPersonalInfoProp({
       name: values.name,
@@ -52,7 +58,7 @@ function PersonalInfo({ setPersonalInfoProp, setCurrentStepProp }: PersonalInfoP
               <Field
                 name="name"
                 validate={nameValidate}
-                // initialValue="John Doe"
+                initialValue={personalInfoProp.name}
                 render={({ input, meta }) => (
                   <Input
                     inputLabel="Name"
@@ -67,7 +73,7 @@ function PersonalInfo({ setPersonalInfoProp, setCurrentStepProp }: PersonalInfoP
               <Field
                 name="email"
                 validate={emailValidate}
-                // initialValue={"test@test.com"}
+                initialValue={personalInfoProp.email}
                 render={({ input, meta }) => (
                   <Input
                     inputLabel="Email Address"
@@ -82,7 +88,7 @@ function PersonalInfo({ setPersonalInfoProp, setCurrentStepProp }: PersonalInfoP
               <Field
                 name="phone"
                 validate={phoneValidate}
-                // initialValue={formatPhoneNumber("1234567890")}
+                initialValue={personalInfoProp.phone}
                 parse={(value) => formatPhoneNumber(value)}
                 render={({ input, meta }) => (
                   <Input

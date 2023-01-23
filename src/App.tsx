@@ -64,7 +64,11 @@ function App() {
         <StepsList activeStep={currentStep} />
 
         {currentStep === 1 && (
-          <PersonalInfo setPersonalInfoProp={setPersonalInfo} setCurrentStepProp={setCurrentStep} />
+          <PersonalInfo
+            personalInfoProp={personalInfo}
+            setPersonalInfoProp={setPersonalInfo}
+            setCurrentStepProp={setCurrentStep}
+          />
         )}
         {currentStep === 2 && (
           <PlanSelection
