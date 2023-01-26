@@ -64,6 +64,7 @@ function PersonalInfo({
                     inputLabel="Name"
                     inputPlaceholder="e.g. Stephen King"
                     isRequired
+                    autocomplete="name"
                     inputProps={input}
                     metaProps={meta}
                   />
@@ -79,6 +80,7 @@ function PersonalInfo({
                     inputLabel="Email Address"
                     inputPlaceholder="e.g. stephenking@lorem.com"
                     isRequired
+                    autocomplete="email"
                     inputProps={input}
                     metaProps={meta}
                   />
@@ -95,6 +97,7 @@ function PersonalInfo({
                     inputLabel="Phone Number"
                     inputPlaceholder="e.g. +1 234 567 890"
                     isRequired
+                    autocomplete="tel"
                     inputProps={input}
                     metaProps={meta}
                   />

@@ -12,10 +12,19 @@ type InputProps = {
   inputLabel: string;
   /** If `true`, shows * symbol after label */
   isRequired?: boolean;
+  /** Hint for the browsers to put specific data in autocomplete list */
+  autocomplete?: string;
 };
 
 /** Input with label, error message and error styling */
-function Input({ inputProps, metaProps, inputPlaceholder, inputLabel, isRequired }: InputProps) {
+function Input({
+  inputProps,
+  metaProps,
+  inputPlaceholder,
+  inputLabel,
+  isRequired,
+  autocomplete,
+}: InputProps) {
   return (
     <div className="flex flex-col gap-2">
       <div className="flex justify-between">
@@ -34,6 +43,7 @@ function Input({ inputProps, metaProps, inputPlaceholder, inputLabel, isRequired
         type="text"
         placeholder={inputPlaceholder}
         spellCheck={false}
+        autoComplete={autocomplete}
         className={classNames(
           "h-12 border border-grayTwo rounded-lg \
           p-4 font-medium placeholder:text-grayOne",
