@@ -1,11 +1,11 @@
-import { AddonsType, ChosenPlanType, PlanModeType } from "../../App";
-import Button from "../../components/Button";
-import PageTemplate from "../../components/PageTemplate";
-import Description from "../../components/Description";
-import Header from "../../components/Header";
-import { StepType } from "../../components/StepsList";
-import { priceData, timeSuffix } from "../../utils/dataObjects";
-import Counter from "../../components/Counter";
+import { AddonsType, ChosenPlanType, PlanModeType } from "../App";
+import Button from "../components/Button";
+import PageTemplate from "../components/PageTemplate";
+import Description from "../components/Description";
+import Header from "../components/Header";
+import { StepType } from "../components/StepsList";
+import { priceData, timeSuffix } from "../utils/dataObjects";
+import Counter from "../components/Counter";
 
 type FinishingUpProps = {
   /** Passed state setter for the current state number */

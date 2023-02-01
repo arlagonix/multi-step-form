@@ -1,6 +1,6 @@
 import classNames from "classnames";
-import Svg from "../../utils/Svg";
-import type { IconTypes } from "../../utils/Svg";
+import Svg from "../utils/Svg";
+import type { IconTypes } from "../utils/Svg";
 
 type PlanCardProps = {
   /** Icon displayed at the top of the card */

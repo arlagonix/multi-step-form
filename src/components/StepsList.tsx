@@ -1,5 +1,5 @@
 import classNames from "classnames";
-import Tab from "../Tab";
+import Tab from "./Tab";
 export type StepType = 1 | 2 | 3 | 4;
 import { motion, type Variants } from "framer-motion";
 

@@ -1,6 +1,6 @@
 import classNames from "classnames";
 import { motion } from "framer-motion";
-import { slightBounce } from "../../utils/framerMotionVariants";
+import { slightBounce } from "../utils/framerMotionVariants";
 
 type PageTemplateProps = {
   /** Additional classes for customizing the standard template */

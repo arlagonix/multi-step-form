@@ -44,9 +44,7 @@ function PersonalInfo({
     <PageTemplate>
       <div>
         <Header>Personal info</Header>
-        <Description>
-          Please provide your name, email address, and phone number
-        </Description>
+        <Description>Please provide your name, email address, and phone number</Description>
       </div>
 
       <Form

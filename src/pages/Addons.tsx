@@ -1,11 +1,11 @@
-import Button from "../../components/Button";
-import PageTemplate from "../../components/PageTemplate";
-import Description from "../../components/Description";
-import Header from "../../components/Header";
-import type { StepType } from "../../components/StepsList";
-import AddonOption from "../../components/AddonOption";
+import Button from "../components/Button";
+import PageTemplate from "../components/PageTemplate";
+import Description from "../components/Description";
+import Header from "../components/Header";
+import type { StepType } from "../components/StepsList";
+import AddonOption from "../components/AddonOption";
 
-import type { AddonNames, AddonsType } from "../../App";
+import type { AddonNames, AddonsType } from "../App";
 
 type AddonsProps = {
   /** List of available addons */

@@ -1,5 +1,5 @@
-import Svg from "../../utils/Svg";
-import PageTemplate from "../../components/PageTemplate";
+import Svg from "../utils/Svg";
+import PageTemplate from "../components/PageTemplate";
 
 function ThankYou() {
   return (
@@ -7,9 +7,8 @@ function ThankYou() {
       <Svg icon="bigCheckMark" />
       <h1 className="text-center text-3xl font-bold text-black">Thank you!</h1>
       <p className="text-center text-grayOne">
-        Thanks for confirming your subscription! We hope you have fun using our
-        platform. If you ever need support, please feel free to email us at
-        support@loremgaming.com
+        Thanks for confirming your subscription! We hope you have fun using our platform. If you
+        ever need support, please feel free to email us at support@loremgaming.com
       </p>
     </PageTemplate>
   );

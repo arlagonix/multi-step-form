@@ -1,13 +1,13 @@
-import Button from "../../components/Button";
-import Toggle from "../../components/Toggle";
-import Header from "../../components/Header";
-import PlanCard from "../../components/PlanCard";
+import Button from "../components/Button";
+import Toggle from "../components/Toggle";
+import Header from "../components/Header";
+import PlanCard from "../components/PlanCard";
 import classNames from "classnames";
-import Description from "../../components/Description";
-import PageTemplate from "../../components/PageTemplate";
-import { priceData, timeSuffix } from "../../utils/dataObjects";
-import type { StepType } from "../../components/StepsList";
-import type { ChosenPlanType, PlanModeType } from "../../App";
+import Description from "../components/Description";
+import PageTemplate from "../components/PageTemplate";
+import { priceData, timeSuffix } from "../utils/dataObjects";
+import type { StepType } from "../components/StepsList";
+import type { ChosenPlanType, PlanModeType } from "../App";
 
 // I decided to pass the state because there not so many of them
 // Thus there is no real need in some complex state management instruments
