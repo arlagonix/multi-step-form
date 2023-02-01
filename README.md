@@ -100,6 +100,14 @@ Figma prototype: https://www.figma.com/file/6ecRJPjwajwLiwWVPLbdCh/Multi-step-fo
     <td><code>npm&nbsp;run&nbsp;eslint</code></td>
     <td>Check that code conforms to Eslint</td>
   </tr>
+  <tr>
+    <td><code>npm&nbsp;run&nbsp;prettier:check</code></td>
+    <td>Check that code conforms to Prettier style</td>
+  </tr>
+  <tr>
+    <td><code>npm&nbsp;run&nbsp;prettier:format</code></td>
+    <td>Format code in src accoring to Prettier</td>
+  </tr>
 </table>
 
 ## 📁 File Structure
