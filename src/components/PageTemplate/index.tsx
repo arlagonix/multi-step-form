@@ -11,14 +11,14 @@ type PageTemplateProps = {
 
 function PageTemplate({ extraClasses = "", children }: PageTemplateProps) {
   return (
-    <div className="w-full min-h-full">
+    <div className="min-h-full w-full">
       <motion.article
         variants={slightBounce}
         initial="initial"
         animate="animate"
         layout
         className={classNames(
-          "sm:pb-4 sm:pl-4 sm:pt-8 flex flex-col max-w-[450px] mx-auto h-full",
+          "mx-auto flex h-full max-w-[450px] flex-col sm:pb-4 sm:pl-4 sm:pt-8",
           extraClasses
         )}
       >

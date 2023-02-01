@@ -52,15 +52,9 @@ function App() {
   const [isFinished, setIsFinished] = useState<boolean>(false);
 
   return (
-    <div className="min-h-screen bg-veryLightBlue flex justify-center sm:items-center">
+    <div className="flex min-h-screen justify-center bg-veryLightBlue sm:items-center">
       <StepsList activeStep={currentStep} small />
-      <main
-        className="
-        self-start sm:self-auto mx-4 sm:mx-0
-        sm:w-[940px] sm:h-[600px] 
-        bg-white rounded-lg sm:rounded-2xl 
-        px-6 pt-8 pb-4 mt-24 sm:mt-0 sm:p-4 flex z-10"
-      >
+      <main className="z-10 mx-4 mt-24 flex self-start rounded-lg bg-white px-6 pt-8 pb-4 sm:mx-0 sm:mt-0 sm:h-[600px] sm:w-[940px] sm:self-auto sm:rounded-2xl sm:p-4">
         <StepsList activeStep={currentStep} />
 
         {currentStep === 1 && (

@@ -32,7 +32,7 @@ function Addons({ addonsProp, setAddonsProp, setCurrentStepProp }: AddonsProps) 
       <Header>Pick add-ons</Header>
       <Description>Add-ons help enhance your gaming experience.</Description>
 
-      <div className="flex flex-col gap-3 sm:gap-4 py-6 sm:pt-8 sm:pb-0">
+      <div className="flex flex-col gap-3 py-6 sm:gap-4 sm:pt-8 sm:pb-0">
         {Object.entries(addonsProp).map((addon) => {
           const addonName = addon[0] as AddonNames;
           const addonDescription = addon[1].description;
@@ -52,7 +52,7 @@ function Addons({ addonsProp, setAddonsProp, setCurrentStepProp }: AddonsProps) 
         })}
       </div>
 
-      <div className="flex justify-between items-end flex-grow">
+      <div className="flex flex-grow items-end justify-between">
         <Button type="secondary" clickHandler={() => setCurrentStepProp(2)}>
           Go Back
         </Button>

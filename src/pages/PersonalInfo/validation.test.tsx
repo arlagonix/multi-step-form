@@ -10,14 +10,20 @@ import { TestDataType } from "../../utils/testTypes";
 
 // nameValidate
 
-const setValuesNameValidate: TestDataType<string | undefined, string | undefined> = [
+const setValuesNameValidate: TestDataType<
+  string | undefined,
+  string | undefined
+> = [
   [undefined, fieldRequiredMessage],
   ["a", "Min length is 3 characters"],
   ["ab", "Min length is 3 characters"],
   ["abc", undefined],
   ["abcdfsdfsdfsdf", undefined],
   ["Vz2GyE6HeNlQXmtb98kixhtZl8gHdRKjTGWLPPJXnqlszfB4", undefined],
-  ["Vz2GyE6HeNlQXmtb98kixhtZl8gHdRKjTGWLPPJXnqlszfB41", "Max length is 48 characters"],
+  [
+    "Vz2GyE6HeNlQXmtb98kixhtZl8gHdRKjTGWLPPJXnqlszfB41",
+    "Max length is 48 characters",
+  ],
 ];
 
 setValuesNameValidate.forEach((dataItem) => {
@@ -30,7 +36,10 @@ setValuesNameValidate.forEach((dataItem) => {
 // emailValidate
 
 const emailInvalidMessage = "The email is invalid";
-const setValuesEmailValidate: TestDataType<string | undefined, string | undefined> = [
+const setValuesEmailValidate: TestDataType<
+  string | undefined,
+  string | undefined
+> = [
   [undefined, fieldRequiredMessage],
   ["aaaaaaaaaa", emailInvalidMessage],
   ["test@test.com", undefined],
@@ -51,7 +60,10 @@ setValuesEmailValidate.forEach((dataItem) => {
 
 // phoneValidate
 
-const setValuesPhoneValidate: TestDataType<string | undefined, string | undefined> = [
+const setValuesPhoneValidate: TestDataType<
+  string | undefined,
+  string | undefined
+> = [
   [undefined, fieldRequiredMessage],
   ["1", phoneInvalidMessage],
   ["123456789", phoneInvalidMessage],

@@ -24,16 +24,18 @@ function StepsList({ activeStep, small = false }: StepsListProps) {
   return (
     <nav
       className={classNames(
-        " min-w-[274px] px-6 py-8",
-        { "bg-[url(./assets/bg-sidebar-desktop.svg)] bg-cover sm:block hidden": !small },
+        "min-w-[274px] px-6 py-8",
         {
-          "bg-[url(./assets/bg-sidebar-mobile.svg)] bg-cover sm:hidden block absolute inset-x-0 top-0 h-[172px]":
+          "hidden bg-[url(./assets/bg-sidebar-desktop.svg)] bg-cover sm:block": !small,
+        },
+        {
+          "bg-[url(./assets/bg-sidebar-mobile.svg)]bg-cover absolute inset-x-0 top-0 block h-[172px] sm:hidden":
             small,
         }
       )}
     >
       <motion.ul
-        className="flex gap-4 justify-center sm:flex-col"
+        className="flex justify-center gap-4 sm:flex-col"
         variants={container}
         initial="hidden"
         animate="shown"

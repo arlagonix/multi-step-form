@@ -28,14 +28,14 @@ function Input({
   return (
     <div className="flex flex-col gap-2">
       <div className="flex justify-between">
-        <label className="text-black text-sm">
-          {inputLabel} {isRequired && <span className="text-red font-bold">*</span>}
+        <label className="text-sm text-black">
+          {inputLabel} {isRequired && <span className="font-bold text-red">*</span>}
         </label>
         {metaProps.touched && metaProps.invalid && (
-          <span className="text-sm text-red font-medium">{metaProps.error} ❌</span>
+          <span className="text-sm font-medium text-red">{metaProps.error} ❌</span>
         )}
         {metaProps.touched && metaProps.valid && (
-          <span className="text-sm text-green-600 font-medium">The field is valid ✔️</span>
+          <span className="text-sm font-medium text-green-600">The field is valid ✔️</span>
         )}
       </div>
       <input
@@ -45,10 +45,11 @@ function Input({
         spellCheck={false}
         autoComplete={autocomplete}
         className={classNames(
-          "h-12 border border-grayTwo rounded-lg \
-          p-4 font-medium placeholder:text-grayOne",
+          "h-12 rounded-lg border border-grayTwo p-4 font-medium placeholder:text-grayOne",
           { "border-red outline-red": metaProps.touched && metaProps.invalid },
-          { "border-green-600 outline-green-600": metaProps.touched && metaProps.valid }
+          {
+            "border-green-600 outline-green-600": metaProps.touched && metaProps.valid,
+          }
         )}
       />
     </div>

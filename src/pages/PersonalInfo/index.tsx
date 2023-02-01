@@ -44,7 +44,9 @@ function PersonalInfo({
     <PageTemplate>
       <div>
         <Header>Personal info</Header>
-        <Description>Please provide your name, email address, and phone number</Description>
+        <Description>
+          Please provide your name, email address, and phone number
+        </Description>
       </div>
 
       <Form
@@ -53,7 +55,7 @@ function PersonalInfo({
           return (
             <form
               onSubmit={props.handleSubmit}
-              className="pt-4 sm:pt-8 flex flex-col gap-6 flex-grow"
+              className="flex flex-grow flex-col gap-6 pt-4 sm:pt-8"
             >
               <Field
                 name="name"
@@ -103,7 +105,7 @@ function PersonalInfo({
                   />
                 )}
               />
-              <div className="flex-grow flex items-end justify-end">
+              <div className="flex flex-grow items-end justify-end">
                 <Button isDisabled={props.invalid} isSubmit>
                   Next Step
                 </Button>

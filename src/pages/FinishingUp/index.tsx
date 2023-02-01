@@ -50,12 +50,12 @@ function FinishingUp({
       <Header>Finishing up</Header>
       <Description>Double-check everything looks OK before confirming.</Description>
 
-      <div className="rounded-lg bg-lightViolet p-6 flex flex-col gap-6 mt-6 sm:mt-12">
-        <div className="flex justify-between items-center">
+      <div className="mt-6 flex flex-col gap-6 rounded-lg bg-lightViolet p-6 sm:mt-12">
+        <div className="flex items-center justify-between">
           <div className="flex flex-col">
             <span className="font-bold text-black">{chosenPlanStr}</span>
             <span
-              className="text-sm text-grayOne underline cursor-pointer hover:text-violetTwo self-start"
+              className="cursor-pointer self-start text-sm text-grayOne underline hover:text-violetTwo"
               onClick={() => setCurrentStepProp(2)}
             >
               Change
@@ -88,17 +88,17 @@ function FinishingUp({
         )}
       </div>
 
-      <div className="px-6 pb-6 sm:pb-0 pt-6 flex justify-between">
+      <div className="flex justify-between px-6 pb-6 pt-6 sm:pb-0">
         <span className="text-sm text-grayOne">
           Total (per {planModeProp === "monthly" ? "month" : "year"})
         </span>
-        <span className="text-xl font-bold text-violetTwo items-center">
+        <span className="items-center text-xl font-bold text-violetTwo">
           +$
           <Counter from={0} to={totalPrice} />/{timeSuffix[planModeProp]}
         </span>
       </div>
 
-      <div className="flex justify-between items-end flex-grow">
+      <div className="flex flex-grow items-end justify-between">
         <Button type="secondary" clickHandler={() => setCurrentStepProp(3)}>
           Go Back
         </Button>

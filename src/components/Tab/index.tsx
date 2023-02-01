@@ -24,36 +24,24 @@ function Tab({ sequenceNumber, title, isActive }: TabProps) {
   return (
     <motion.li
       className={classNames(
-        "tab-animation flex items-center gap-4 sm:p-2 \
-        rounded-md transition select-none"
+        "tab-animation flex select-none items-center gap-4 rounded-md transition sm:p-2"
       )}
       variants={itemVariants}
     >
       <div
         className={classNames(
-          "rounded-full w-8 h-8 flex justify-center \
-          items-center font-medium text-sm transition",
-          { "border-none text-black bg-blue": isActive },
+          "flex h-8 w-8 items-center justify-center rounded-full text-sm font-medium transition",
+          { "border-none bg-blue text-black": isActive },
           { "border border-white text-white": !isActive }
         )}
       >
         {sequenceNumber}
       </div>
       <div className="hidden sm:block">
-        <p
-          className="
-          uppercase text-xs text-transparentWhite 
-          font-light leading-none"
-        >
+        <p className="text-xs font-light uppercase leading-none text-transparentWhite">
           Step {sequenceNumber}
         </p>
-        <p
-          className="
-          uppercase text-sm font-medium 
-          tracking-wide text-white"
-        >
-          {title}
-        </p>
+        <p className="text-sm font-medium uppercase tracking-wide text-white">{title}</p>
       </div>
     </motion.li>
   );

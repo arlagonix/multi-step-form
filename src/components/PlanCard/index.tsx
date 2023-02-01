@@ -29,9 +29,7 @@ function PlanCard({
     <div
       onClick={clickHandler}
       className={classNames(
-        "h-[160px] border flex-1 \
-        rounded-lg p-4 flex sm:flex-col sm:justify-between gap-4 \
-        transition hover:cursor-pointer",
+        "flex h-[160px] flex-1 gap-4 rounded-lg border p-4 transition hover:cursor-pointer sm:flex-col sm:justify-between",
         { "border-grayTwo hover:bg-grayThree": !isActive },
         { "border-violetOne bg-grayThree": isActive }
       )}
@@ -39,10 +37,10 @@ function PlanCard({
       <Svg icon={iconType} className="select-none" />
 
       <div>
-        <p className="font-bold text-black select-none">{title}</p>
-        <p className="text-sm text-grayOne select-none">{price}</p>
+        <p className="select-none font-bold text-black">{title}</p>
+        <p className="select-none text-sm text-grayOne">{price}</p>
         {comment !== undefined && (
-          <p className="text-xs text-black select-none transition">{comment}</p>
+          <p className="select-none text-xs text-black transition">{comment}</p>
         )}
       </div>
     </div>

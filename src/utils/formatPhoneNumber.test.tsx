@@ -18,7 +18,10 @@ const setValuesNameValidate: TestDataType<string, string> = [
   ["1234567890", "+1 234 567 890"],
   ["12345678901", "+1 234 567 890"],
   ["1234567890119273918723", "+1 234 567 890"],
-  ["1sdfsdf2fsdfsd3sd4sdfsdsdff56!@!@!@++++789ssdfsdf0119273918723", "+1 234 567 890"],
+  [
+    "1sdfsdf2fsdfsd3sd4sdfsdsdff56!@!@!@++++789ssdfsdf0119273918723",
+    "+1 234 567 890",
+  ],
 ];
 
 setValuesNameValidate.forEach((dataItem) => {

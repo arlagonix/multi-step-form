@@ -44,7 +44,7 @@ function PlanSelection({
       <Header>Select your plan</Header>
       <Description>You have the option of monthly or yearly billing.</Description>
 
-      <div className="flex flex-col sm:flex-row gap-2 pt-4 sm:gap-6 sm:py-12 w-full">
+      <div className="flex w-full flex-col gap-2 pt-4 sm:flex-row sm:gap-6 sm:py-12">
         <PlanCard
           iconType="arcade"
           title="Arcade"
@@ -72,19 +72,16 @@ function PlanSelection({
       </div>
 
       <div
-        className="
-        h-10 bg-grayThree rounded-lg my-6 sm:my-0 py-2 sm:py-8 
-        flex gap-6 items-center justify-center
-        cursor-pointer transition-all"
+        className="my-6 flex h-10 cursor-pointer items-center justify-center gap-6 rounded-lg bg-grayThree py-2 transition-all sm:my-0 sm:py-8"
         onClick={() => {
           setPlanModeProp((prev) => (prev === "monthly" ? "yearly" : "monthly"));
         }}
       >
         <span
           className={classNames(
-            "text-sm select-none",
-            { "text-black font-bold": planModeProp === "monthly" },
-            { "text-grayOne font-bold": planModeProp !== "monthly" }
+            "select-none text-sm",
+            { "font-bold text-black": planModeProp === "monthly" },
+            { "font-bold text-grayOne": planModeProp !== "monthly" }
           )}
         >
           Monthly
@@ -92,16 +89,16 @@ function PlanSelection({
         <Toggle checkedValue={planModeProp === "yearly"} />
         <span
           className={classNames(
-            "text-sm select-none",
-            { "text-black font-bold": planModeProp === "yearly" },
-            { "text-grayOne font-bold": planModeProp !== "yearly" }
+            "select-none text-sm",
+            { "font-bold text-black": planModeProp === "yearly" },
+            { "font-bold text-grayOne": planModeProp !== "yearly" }
           )}
         >
           Yearly
         </span>
       </div>
 
-      <div className="flex justify-between items-end flex-grow">
+      <div className="flex flex-grow items-end justify-between">
         <Button type="secondary" clickHandler={() => setCurrentStepProp(1)}>
           Go Back
         </Button>

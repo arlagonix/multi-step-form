@@ -32,9 +32,7 @@ function Button({
       disabled={isDisabled}
       layout
       className={classNames(
-        "rounded-lg disabled:opacity-50 disabled:cursor-not-allowed \
-        self-end h-12 flex items-center px-6 text-sm sm:text-base \
-        font-medium select-none",
+        "flex h-12 select-none items-center self-end rounded-lg px-6 text-sm font-medium disabled:cursor-not-allowed disabled:opacity-50 sm:text-base",
         { "border bg-black text-white hover:bg-darkBlue": type === "primary" },
         { "text-grayOne hover:bg-grayThree": type === "secondary" }
       )}

@@ -62,7 +62,12 @@ function Svg({ icon = "arcade", width, height, className }: SvgProps) {
       </g>
       <defs>
         <clipPath id="clip0_50_69">
-          <rect width="40" height="40" fill="white" transform="translate(0.333374)" />
+          <rect
+            width="40"
+            height="40"
+            fill="white"
+            transform="translate(0.333374)"
+          />
         </clipPath>
       </defs>
     </svg>
@@ -89,7 +94,12 @@ function Svg({ icon = "arcade", width, height, className }: SvgProps) {
       </g>
       <defs>
         <clipPath id="clip0_50_76">
-          <rect width="40" height="40" fill="white" transform="translate(0.666626)" />
+          <rect
+            width="40"
+            height="40"
+            fill="white"
+            transform="translate(0.666626)"
+          />
         </clipPath>
       </defs>
     </svg>
@@ -119,7 +129,12 @@ function Svg({ icon = "arcade", width, height, className }: SvgProps) {
       </g>
       <defs>
         <clipPath id="clip0_20_965">
-          <rect width="80" height="80" fill="white" transform="translate(0 0.5)" />
+          <rect
+            width="80"
+            height="80"
+            fill="white"
+            transform="translate(0 0.5)"
+          />
         </clipPath>
       </defs>
     </svg>
