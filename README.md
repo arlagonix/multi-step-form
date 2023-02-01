@@ -71,7 +71,6 @@ Figma prototype: https://www.figma.com/file/6ecRJPjwajwLiwWVPLbdCh/Multi-step-fo
 - **NodeJS**
 - **Vite**
 - **Github Pages**
-- **Github Actions** for CI/CD
 
 ## 🔨 Build project
 
