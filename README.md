@@ -2,7 +2,7 @@
 <p align="center">
   <a href="https://github.com/arlagonix/multi-step-form"><img alt="GitHub Workflow Status" src="https://img.shields.io/github/actions/workflow/status/arlagonix/multi-step-form/main.yaml"></a>
   <a href="#last-commit"><img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/arlagonix/multi-step-form"></a>
-  <a href="#license"><img alt="GitHub" src="https://img.shields.io/github/license/arlagonix/multi-step-form"></a>
+  <a href="./LICENSE"><img alt="GitHub" src="https://img.shields.io/github/license/arlagonix/multi-step-form"></a>
 </p>
 <p align="center">
   Made with <code>HTML</code>, <code>CSS</code>, <code>TypeScript</code>, <code>ReactJS</code>, <code>TailwindCSS</code>
