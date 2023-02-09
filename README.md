@@ -137,7 +137,7 @@ Figma prototype: https://www.figma.com/file/6ecRJPjwajwLiwWVPLbdCh/Multi-step-fo
 |
 ├── 📄 LICENSE - MIT License. Basically you can do whatever you want with the code
 ├── 📄 tsconfig.json - TypeScript configuration file
-├── 📄 tsconfig.node.json - Some other configuration for TS? Vite added it, so ... it is what it is
+├── 📄 tsconfig.node.json - TypeScript configuration file for Vite
 ├── 📄 vite.config.js - Vite configuration file
 ├── 📄 tailwind.config.cjs - TailwindCSS configuration file
 ├── 📄 postcss.config.cjs - PostCSS configuration file
