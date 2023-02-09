@@ -144,7 +144,7 @@ Figma prototype: https://www.figma.com/file/6ecRJPjwajwLiwWVPLbdCh/Multi-step-fo
 ├── 📄 .eslintrc.json - ESLint configuration file
 ├── 📄 package-lock.json - Keeps track of the exact version of every package that is installed
 ├── 📄 package.json - Various metadata relevant to the project, scripts, dependencies
-└── 📄 README.md - You're literally reading it right now
+└── 📄 README.md
 ```
 
 ## 📦 NPM Packages worth mentioning
