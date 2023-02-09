@@ -5,10 +5,11 @@
   <a href="./LICENSE"><img alt="GitHub" src="https://img.shields.io/github/license/arlagonix/multi-step-form"></a>
 </p>
 <p align="center">
-  Made with <code>HTML</code>, <code>CSS</code>, <code>TypeScript</code>, <code>ReactJS</code>, <code>TailwindCSS</code>
+  Made with <code>HTML</code>, <code>CSS</code>, <code>TypeScript</code>, <code>ReactJS</code>, <code>TailwindCSS</code><br> Bootstrapped with <code>Vite</code>
 </p>
+
 <p align="center">
-  Bootstrapped with <code>Vite</code>
+  <a href="../../actions">Builds</a> • <a href="../../commits">Commits</a> • <a href="./LICENSE">License</a>
 </p>
 
 <p align="center">
