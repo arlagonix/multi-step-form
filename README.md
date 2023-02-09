@@ -111,104 +111,33 @@ Figma prototype: https://www.figma.com/file/6ecRJPjwajwLiwWVPLbdCh/Multi-step-fo
 
 ## 📁 File Structure
 
-<table>
-  <tr>
-    <th>Path</th>
-    <th>Description</th>
-  </tr>
-  <tr>
-    <td colspan="2"></td>
-  </tr>
-  <tr>
-    <td><code>src</code></td>
-    <td>Source files needed for application development</td>
-  </tr>
-  <tr>
-    <td><code>src / assets</code></td>
-    <td>Folder with static assets (images, favicon)</td>
-  </tr>
-  <tr>
-    <td><code>src / components</code></td>
-    <td>Folder with React components</td>
-  </tr>
-  <tr>
-    <td><code>src / pages</code></td>
-    <td>Folder with pages</td>
-  </tr>
-  <tr>
-    <td><code>src / utils</code></td>
-    <td>Folder with utility functions</td>
-  </tr>
-  <tr>
-    <td><code>src / index.html</code></td>
-    <td>Main html file</td>
-  </tr>
-  <tr>
-    <td><code>src / App.tsx</code></td>
-    <td>Main code for the application</td>
-  </tr>
-  <tr>
-    <td><code>src / index.tsx</code></td>
-    <td>Entry point for the module bundler</td>
-  </tr>
-  <tr>
-    <td><code>src / index.css</code></td>
-    <td>Contains Tailwind declarations</td>
-  </tr>
-  <tr>
-    <td><code>src / vite-end.d.ts</code></td>
-    <td>Some Typescript stuff for Vite</td>
-  </tr>
-  <tr>
-    <td colspan="2"></td>
-  </tr>
-  <tr>
-    <td><code>.github / workflows / main.yaml</code></td>
-    <td>CI/CD instructions for Github Actions</td>
-  </tr>
-  <tr>
-    <td colspan="2"></td>
-  </tr>
-  <tr>
-    <td><code>docs</code></td>
-    <td>Folder with additional information, documentation</td>
-  </tr>
-  <tr>
-    <td><code>docs / results</code></td>
-    <td>Folder with screenshots of how the application works after being fully developed</td>
-  </tr>
-  <tr>
-    <td colspan="2"></td>
-  </tr>
-  <tr>
-    <td colspan="2"></td>
-  </tr>
-  <tr>
-    <td><code>LICENSE</code></td>
-    <td>MIT License</td>
-  </tr>
-  <tr>
-    <td><code>tsconfig.json</code></td>
-    <td>Configuration for TS compiler</td>
-  </tr>
-  <tr>
-    <td><code>tsconfig.node.json</code></td>
-    <td>Some other configuration for TS compiler? Vite added it, so ... it is what it is</td>
-  </tr>
-  <tr>
-    <td><code>package-lock.json</code></td>
-    <td>JSON file that keeps track of the exact version of every package that is installed so that a product is 100% reproducible in the same way even if packages are updated by their maintainers</td>
-  </tr>
-  <tr>
-    <td><code>package.json</code></td>
-    <td>JSON file that holds various metadata relevant to the project. This file is used to give information to npm that allows it to identify the project as well as handle the project's dependencies</td>
-  </tr>
-  <tr>
-    <td><code>vite.config.js</code></td>
-    <td>Configuration for Vite module bundler</td>
-  </tr>
-  
-</table>
+```Markdown
+├── 📁 src - Source files needed for application development
+│   ├── 📁 assets - Static assets: images, icons, favicons
+│   ├── 📁 components - React components
+│   ├── 📁 pages - React page components
+│   ├── 📁 utils - Utility functions
+│   ├── 📄 index.html - Main html file
+│   ├── 📄 App.tsx - App React component
+│   ├── 📄 index.tsx - Entry point for the module bundler
+│   ├── 📄 index.css - Tailwind declarations mainly
+│   └── 📄 vite-end.d.ts - Some Typescript stuff for Vite
+│
+├── 📁 .github
+|   └── 📁 workflows
+|       └── 📄 main.yaml - CI/CD instructions for Github Actions
+|
+├── 📁 docs - Additional information, documentation 
+│   └── 📁 results - Screenshots of how the application works after being fully developed
+|
+├── 📄 LICENSE - MIT License. Basically you can do whatever you want with the code
+├── 📄 tsconfig.json - TypeScript configuration file
+├── 📄 tsconfig.node.json - Some other configuration for TS compiler? Vite added it, so ... it is what it is, true and real
+├── 📄 package-lock.json - Keeps track of the exact version of every package that is installed
+├── 📄 package.json - Various metadata relevant to the project, scripts, dependencies
+├── 📄 vite.config.js - Vite configuration file
+└── 📄 README.md - You're literally reading it right now
+```
 
 ## 📦 NPM Packages worth mentioning
 
