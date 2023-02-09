@@ -58,9 +58,7 @@ The users should be able to:
 - View the optimal layout for the interface depending on their device's screen size
 - See hover and focus states for all interactive elements on the page
 
-I made my own Figma prototype and redesigned the whole application.
-
-Figma prototype: https://www.figma.com/file/6ecRJPjwajwLiwWVPLbdCh/Multi-step-form
+I made my own Figma prototype: https://www.figma.com/file/6ecRJPjwajwLiwWVPLbdCh/Multi-step-form
 
 ## ⚙️ Tools
 
