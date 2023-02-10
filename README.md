@@ -153,6 +153,7 @@ I made my own Figma prototype: https://www.figma.com/file/6ecRJPjwajwLiwWVPLbdCh
 │   └── 📝 vite-end.d.ts      Some Typescript stuff for Vite
 │
 ├── 📁 .github
+│   ├── 📝 dependabot.yml     Instructions for Dependabot
 |   └── 📁 workflows
 |       └── 📝 main.yaml      CI/CD instructions for Github Actions
 |
