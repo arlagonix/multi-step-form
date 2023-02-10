@@ -105,8 +105,12 @@ I made my own Figma prototype: https://www.figma.com/file/6ecRJPjwajwLiwWVPLbdCh
     <th>Description</th>
   </tr>
   <tr>
+    <td><code>npm&nbsp;install</code></td>
+    <td>First of all install all required packages</td>
+  </tr>
+  <tr>
     <td><code>npm&nbsp;start</code></td>
-    <td>Starts a local web server with HMR (Hot Module Replacement) for development</td>
+    <td>Starts a local development web server</td>
   </tr>
   <tr>
     <td><code>npm&nbsp;run&nbsp;build</code></td>
