@@ -169,11 +169,28 @@ I made my own Figma prototype: https://www.figma.com/file/6ecRJPjwajwLiwWVPLbdCh
 
 ## 📦 NPM Packages worth mentioning
 
-- `tailwindcss` - For CSS
-- `vitest` - Unit testing
-- `framer-motion` - Adds nice looking animations
-- `classnames` - Conditionally define sets of CSS classes
-- `react-final-form`, `final-form` - Form validation
+<table>
+  <tr>
+    <td><code>tailwindcss</code></td>
+    <td>For CSS</td>
+  </tr>
+  <tr>
+    <td><code>vitest</code></td>
+    <td>Unit testing</td>
+  </tr>
+  <tr>
+    <td><code>framer-motion</code></td>
+    <td>Adds nice looking animations</td>
+  </tr>
+  <tr>
+    <td><code>classnames</code></td>
+    <td>Conditionally define sets of CSS classes</td>
+  </tr>
+  <tr>
+    <td><code>react-final-form</code>, <code>final-form</code></td>
+    <td>Form validation</td>
+  </tr>
+</table>
 
 ## 💡 Details
 
@@ -188,9 +205,20 @@ Features
 
 ## 🔗 Useful resources
 
-- [How to deploy a react app on GH Pages](https://www.freecodecamp.org/news/deploy-a-react-app-to-github-pages/) - to put shortly, just use HashRouter in the application
-- [Github Actions - Введение в CI/CD](https://www.youtube.com/watch?v=e0A2hDObLmg) - Introduction to CI/CD with Github Actions, in Russian. Helped me to get understand the basics
-- [Framer Motion](https://www.framer.com/motion/) - Official framer-motion docs
+<table>
+  <tr>
+    <td><a href="https://www.freecodecamp.org/news/deploy-a-react-app-to-github-pages/">How to deploy a react app on GH Pages</a></td>
+    <td>To put shortly, just use HashRouter in the application</td>
+  </tr>
+  <tr>
+    <td><a href="https://www.youtube.com/watch?v=e0A2hDObLmg">Github Actions - Введение в CI/CD</a></td>
+    <td>Introduction to CI/CD with Github Actions, in Russian. Helped me to get understand the basics</td>
+  </tr>
+  <tr>
+    <td><a href="https://www.framer.com/motion/">Framer Motion</a></td>
+    <td>Official framer-motion docs</td>
+  </tr>
+</table>
 
 ## 👤 Author
 
