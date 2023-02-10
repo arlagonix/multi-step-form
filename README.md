@@ -142,29 +142,29 @@ I made my own Figma prototype: https://www.figma.com/file/6ecRJPjwajwLiwWVPLbdCh
 │   ├── 📁 components         React components
 │   ├── 📁 pages              React page components
 │   ├── 📁 utils              Utility functions
-│   ├── 📄 index.html         Main html file
-│   ├── 📄 App.tsx            App React component
-│   ├── 📄 index.tsx          Entry point for the module bundler
-│   ├── 📄 index.css          Tailwind declarations mainly
-│   └── 📄 vite-end.d.ts      Some Typescript stuff for Vite
+│   ├── 📝 index.html         Main html file
+│   ├── 📝 App.tsx            App React component
+│   ├── 📝 index.tsx          Entry point for the module bundler
+│   ├── 📝 index.css          Tailwind declarations mainly
+│   └── 📝 vite-end.d.ts      Some Typescript stuff for Vite
 │
 ├── 📁 .github
 |   └── 📁 workflows
-|       └── 📄 main.yaml      CI/CD instructions for Github Actions
+|       └── 📝 main.yaml      CI/CD instructions for Github Actions
 |
 ├── 📁 docs                   Additional information, documentation 
 │   └── 📁 results            Screenshots of how the application works after being fully developed
 |
-├── 📄 LICENSE                MIT License. Basically you can do whatever you want with the code
-├── 📄 tsconfig.json          TypeScript configuration file
-├── 📄 tsconfig.node.json     TypeScript configuration file for Vite
-├── 📄 vite.config.js         Vite configuration file
-├── 📄 tailwind.config.cjs    TailwindCSS configuration file
-├── 📄 postcss.config.cjs     PostCSS configuration file
-├── 📄 .eslintrc.json         ESLint configuration file
-├── 📄 package-lock.json      Keeps track of the exact version of every package that is installed
-├── 📄 package.json           Various metadata relevant to the project, scripts, dependencies
-└── 📄 README.md
+├── 📝 LICENSE                MIT License. Basically you can do whatever you want with the code
+├── 📝 tsconfig.json          TypeScript configuration file
+├── 📝 tsconfig.node.json     TypeScript configuration file for Vite
+├── 📝 vite.config.js         Vite configuration file
+├── 📝 tailwind.config.cjs    TailwindCSS configuration file
+├── 📝 postcss.config.cjs     PostCSS configuration file
+├── 📝 .eslintrc.json         ESLint configuration file
+├── 📝 package-lock.json      Keeps track of the exact version of every package that is installed
+├── 📝 package.json           Various metadata relevant to the project, scripts, dependencies
+└── 📝 README.md
 ```
 
 ## 📦 NPM Packages worth mentioning
