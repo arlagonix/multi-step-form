@@ -211,20 +211,9 @@ Features
 
 ## 🔗 Useful resources
 
-<table>
-  <tr>
-    <td><a href="https://www.freecodecamp.org/news/deploy-a-react-app-to-github-pages/">How to deploy a react app on GH Pages</a></td>
-    <td>To put shortly, just use HashRouter in the application</td>
-  </tr>
-  <tr>
-    <td><a href="https://www.youtube.com/watch?v=e0A2hDObLmg">Github Actions - Введение в CI/CD</a></td>
-    <td>Introduction to CI/CD with Github Actions, in Russian. Helped me to get understand the basics</td>
-  </tr>
-  <tr>
-    <td><a href="https://www.framer.com/motion/">Framer Motion</a></td>
-    <td>Official framer-motion docs</td>
-  </tr>
-</table>
+- [How to deploy a react app on GH Pages](https://www.freecodecamp.org/news/deploy-a-react-app-to-github-pages/) - to put shortly, just use HashRouter in the application
+- [Github Actions - Введение в CI/CD](https://www.youtube.com/watch?v=e0A2hDObLmg) - Introduction to CI/CD with Github Actions, in Russian. Helped me to get understand the basics
+- [Framer Motion](https://www.framer.com/motion/) - Official framer-motion docs
 
 ## 👤 Author
 
