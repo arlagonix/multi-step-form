@@ -9,31 +9,27 @@
 </p>
 
 <p align="center">
-  Made with <code>HTML</code>, <code>CSS</code>, <code>TypeScript</code>, <code>ReactJS</code>, <code>TailwindCSS</code><br> Bootstrapped with <code>Vite</code>
+  Made with <code>HTML</code>, <code>CSS</code>, <code>TypeScript</code>, <code>ReactJS</code>, <code>TailwindCSS</code>
+  <br>
+  Bootstrapped with <code>Vite</code>
 </p>
 
 <p align="center">
-  <a href="#ℹ%EF%B8%8F-about">ℹ️ About</a> • <a href="#%EF%B8%8F-tools">⚙️ Tools</a> • <a href="#-build-project">🔨 How to Build Project</a> • <a href="#-file-structure">📁 File Structure</a>
+  <a href="#-screenshots">🖼 Screenshots</a> • 
+  <a href="#ℹ%EF%B8%8F-about">ℹ️ About</a> • 
+  <a href="#%EF%B8%8F-tools">⚙️ Tools</a> • 
+  <a href="#-build-project">🔨 How to Build Project</a> • 
+  <a href="#-file-structure">📁 File Structure</a>
 </p>
 
-<p align="center">
-  <a href="#-details">Details</a> • <a href="#-useful-resources">Useful Rssources</a> • <a href="#-author">About Author</a>
-</p>
-
-## ℹ️ About
-
-This is a solution to the challenge "Multi-Step Form" from Frontend Mentor ([link](https://www.frontendmentor.io/challenges/multistep-form-YVAnSdqQBJ)).
-
-The challenge is to build out this multi-step form and get it looking as close to the design as possible.
-
-The users should be able to:
-
-- Complete each step of the sequence
-- See a summary of their selections on the final step and confirm their order
-- View the optimal layout for the interface depending on their device's screen size
-- See hover and focus states for all interactive elements on the page
-
-I made my own Figma prototype: https://www.figma.com/file/6ecRJPjwajwLiwWVPLbdCh/Multi-step-form
+<sup>
+  <p align="center">
+    <a href="#-npm-packages-worth-mentioning">📦 NPM Packages worth mentioning</a> • 
+    <a href="#-details">💡 Details</a> • 
+    <a href="#-useful-resources">🔗 Useful resources</a> • 
+    <a href="#-author">👤 Author</a>
+  </p>
+</sup>
 
 ## 🖼 Screenshots
 
@@ -70,6 +66,21 @@ I made my own Figma prototype: https://www.figma.com/file/6ecRJPjwajwLiwWVPLbdCh
 <p align="center">
   <img src="./docs/results/stepFinal_mobile.png" width="35%">
 </p>
+
+## ℹ️ About
+
+This is a solution to the challenge "Multi-Step Form" from Frontend Mentor ([link](https://www.frontendmentor.io/challenges/multistep-form-YVAnSdqQBJ)).
+
+The challenge is to build out this multi-step form and get it looking as close to the design as possible.
+
+The users should be able to:
+
+- Complete each step of the sequence
+- See a summary of their selections on the final step and confirm their order
+- View the optimal layout for the interface depending on their device's screen size
+- See hover and focus states for all interactive elements on the page
+
+I made my own Figma prototype: https://www.figma.com/file/6ecRJPjwajwLiwWVPLbdCh/Multi-step-form
 
 ## ⚙️ Tools
 
